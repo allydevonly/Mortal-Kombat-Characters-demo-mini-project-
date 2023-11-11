@@ -1,0 +1,121 @@
+
+    body {
+      width: 1440px;
+      background-color: #0D192B;
+      font-family: 'Outfit', sans-serif;
+    }
+  
+
+  #firstH{
+    color: rgb(255, 255, 255);
+    font-size:40px;
+  }
+  #underline{
+    color: #AC8A56;
+    font-family:  Arial, sans-serif;
+    
+    
+  }
+
+
+  .grid-container {
+    
+
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       place-items: center;
+       margin-right: 200px;
+  }
+
+  .grid-container div {
+
+       width:300px;
+       height:60px;
+       margin-bottom: 300px;
+       
+       
+  }
+  .card-container{
+    display: grid;
+       grid-template-columns: 1fr 1fr;
+       
+            
+  }
+  .card-container div {
+
+    
+    height:150px;
+    
+    
+}
+
+
+
+  @media  screen and (max-width: 686px) {
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr;
+      place-items: center;
+    }
+  }
+  
+  .navtop{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  #underline{
+    margin: -52px;
+    
+  }
+  .navbtn{
+    margin: 75px;
+  }
+
+  .btnS1{
+    background-color: #0D192B;
+    border-radius:5px;
+    color: #AC8A56;
+    margin-left: 10px;
+    border-color:#AC8A56;
+    font-size:large;
+  }
+
+  .imgMC{
+    border-style: solid;
+    border-color: #AC8A56;
+    border-radius: 10px;
+    border-width: 5px;
+  }
+  .title{
+    color: white;
+    display: flex;
+    margin-left: 10px;
+    margin-top: -3px;
+    display: inline;
+    
+  }
+  .additional-name{
+    color: #AC8A56;
+    display: inline;
+    display: flex;
+    justify-content:flex-end;
+    margin-top: -20px;
+  }
+
+  .dcrption{
+    color: white;
+    margin-left: 10px;
+    
+  }
+  .uslessbtn{
+    margin-left:10px ;
+    background-color: #FFCB2B;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+ 
+  }
+ 
